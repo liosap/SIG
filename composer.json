@@ -1,5 +1,5 @@
 {
-  "name": "sig/app",
+  "name": "sig/sig-wep",
   "description": "Sistema Integral de Gestión - PHP 8.2 sin framework",
   "require": {
     "php": ">=8.2",
