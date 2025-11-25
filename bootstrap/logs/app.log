@@ -1,0 +1,30 @@
+[2025-11-23 08:33:53] INFO: Login exitoso: liosap
+[2025-11-23 09:01:10] INFO: Login exitoso: pepe
+[2025-11-23 11:55:45] INFO: Login exitoso: liosap
+[2025-11-23 12:27:48] INFO: Login exitoso: liosap
+[2025-11-23 12:48:50] INFO: Login exitoso: liosap
+[2025-11-23 12:53:10] INFO: Login exitoso: liosap
+[2025-11-23 17:46:42] INFO: Login exitoso: liosap
+[2025-11-23 18:04:28] ERROR: Uncaught exception: Error de prueba en HomeController in C:\xampp\htdocs\sig\app\Controllers\HomeController.php:14 | trace: #0 [internal function]: App\Controllers\HomeController->index(Object(Core\Http\Request))
+#1 C:\xampp\htdocs\sig\core\Router.php(156): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\sig\core\Application.php(39): Core\Router->run(Object(Core\Http\Request))
+#3 C:\xampp\htdocs\sig\public\index.php(129): Core\Application->run()
+#4 {main}
+[2025-11-23 18:11:58] INFO: Login exitoso: liosap
+[2025-11-23 18:13:34] ERROR: Uncaught exception: Using $this when not in object context in C:\xampp\htdocs\sig\app\Views\usuario\dashboard.php:1 | trace: #0 C:\xampp\htdocs\sig\app\View\View.php(37): include()
+#1 C:\xampp\htdocs\sig\core\Http\Response.php(74): App\View\View::render('usuario/dashboa...', Array)
+#2 C:\xampp\htdocs\sig\app\Controllers\UsuarioController.php(31): Core\Http\Response::view('usuario/dashboa...', Array)
+#3 [internal function]: App\Controllers\UsuarioController->dashboard(Object(Core\Http\Request))
+#4 C:\xampp\htdocs\sig\core\Router.php(156): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\sig\core\Application.php(39): Core\Router->run(Object(Core\Http\Request))
+#6 C:\xampp\htdocs\sig\public\index.php(129): Core\Application->run()
+#7 {main}
+[2025-11-23 18:17:37] INFO: Login exitoso: liosap
+[2025-11-23 18:25:50] INFO: Login exitoso: liosap
+[2025-11-23 18:55:30] WARNING: Password incorrecto para liosap (Intentos: 1)
+[2025-11-23 18:55:35] WARNING: Password incorrecto para liosap (Intentos: 2)
+[2025-11-23 18:55:40] WARNING: Password incorrecto para liosap (Intentos: 3)
+[2025-11-23 18:56:46] WARNING: Password incorrecto para liosap (Intentos: 4)
+[2025-11-23 18:56:51] WARNING: Password incorrecto para liosap (Intentos: 5)
+[2025-11-23 18:56:51] ALERT: Usuario liosap bloqueado por fuerza bruta durante 10 minutos.
+[2025-11-23 19:14:29] INFO: Login exitoso: liosap

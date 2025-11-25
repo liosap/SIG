@@ -1,0 +1,20 @@
+{
+  "name": "sig/app",
+  "description": "Sistema Integral de Gestión - PHP 8.2 sin framework",
+  "require": {
+    "php": ">=8.2",
+    "php-di/php-di": "^7.0",
+    "vlucas/phpdotenv": "^5.6",
+    "monolog/monolog": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Core\\": "core/",
+      "Config\\": "config/"
+    },
+    "files": [
+      "app/Helpers/helpers.php"
+    ]
+  }
+}

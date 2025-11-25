@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /sig/
+
+# 1️⃣ Cuando entran sin ruta (solo /sig o /sig/)
+RewriteRule ^$ public/index.php [L,QSA]
+
+# 2️⃣ Cuando la ruta no existe como archivo o carpeta real
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/index.php [L,QSA]
