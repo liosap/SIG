@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /sig/
+RewriteBase /sig-web/
 
 # 1️⃣ Cuando entran sin ruta (solo /sig o /sig/)
 RewriteRule ^$ public/index.php [L,QSA]
