@@ -1,5 +1,5 @@
 # SIG – Sistema Integral de Gestión
----
+
 **Documentación Técnica – Fase 1**
 
 ## 1. Introducción
