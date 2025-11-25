@@ -373,3 +373,5 @@ Ejemplo:
 3. Crear controlador o métodos nuevos.
 4. Crear vistas.
 5. Registrar rutas + middlewares.
+
+---
