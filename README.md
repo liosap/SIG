@@ -1,10 +1,5 @@
-Aquí tienes el **README.md** generado a partir del documento que subiste.
-Lo entrego directamente en formato Markdown para que puedas copiarlo en tu repositorio.
-
----
-
 # SIG – Sistema Integral de Gestión
-
+---
 **Documentación Técnica – Fase 1**
 
 ## 1. Introducción
